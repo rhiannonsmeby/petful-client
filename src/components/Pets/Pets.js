@@ -1,8 +1,11 @@
 import React from "react";
+import './Pets.css';
 
 export default function Pets(props) {
 
   return (
+    <section className='pets-section'>
+        <h3>Our current pets:</h3>
     <div className= 'pets'>
       {props.cat&&<ul>
         <li>
@@ -39,5 +42,6 @@ export default function Pets(props) {
       )}
       </div>
     </div>
+    </section>
   );
 }

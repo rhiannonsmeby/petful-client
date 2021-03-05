@@ -2,12 +2,12 @@ import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import LandingPage from '../components/LandingPage/LandingPage';
 import AdoptionPage from '../components/AdoptionPage/AdoptionPage';
+import './Root.css';
 
 class Root extends React.Component {
   render() {
     return (
       <main>
-        <header>Petful</header>
         <div>
           <BrowserRouter>
             <Switch>

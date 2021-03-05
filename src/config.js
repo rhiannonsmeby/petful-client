@@ -1,3 +1,3 @@
 export default {
-    REACT_APP_API_BASE: 'http://localhost:8080'
+    REACT_APP_API_BASE: 'https://secret-basin-40331.herokuapp.com'
 }
